@@ -14,17 +14,18 @@
 参考URL
 https://hesma2.hatenablog.com/entry/2021/01/22/003526
 
-## Pandasの欠損地処理メソッド
+## Pandasの欠損値処理メソッド
 
-|:-----------|:--------------------------------|:--------------------|
-| 削除        | df.dronpa()                    | 欠損地の行の削除      |
-| 補完        | df.fillna(method='ffill')      | 1つ前方の値で補完     |
-|            | df.fillna(method='bfill')       | 1つ後方の値で補完    |
+| 目的        | Method        | 説明        |
+|:-----------|:--------------------------------|:----------------------|
+| 削除       | df.dronpa()                     | 欠損地の行の削除      |
+| 補完       | df.fillna(method='ffill')       | 1つ前方の値で補完     |
+|            | df.fillna(method='bfill')       | 1つ後方の値で補完     |
 |            | df.fillna(0)                    | 0などの任意の値で補完 |
 |            | df.fillna(df.mean())            | 平均値で補完          |
 |            | df.fillna(df.median())          | 中央値で補完          |
 |            | df.fillna(df.mode().iloc[0,:])  | 最頻値で補完          |
-| 判定        | df.isnull()                    | 欠損値かどうかの判定   |
+| 判定       | df.isnull()                     | 欠損値かどうかの判定  |
 
 
 
