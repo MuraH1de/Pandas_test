@@ -53,7 +53,9 @@ https://hesma2.hatenablog.com/entry/2021/01/22/003526
 |                       | 50%       | 中央値     |
 |                       | 75%       | 75%-ile   |
 
-
+## そのほか
+#### corrメソッド　・・・　相関係数の取得
+#### value属性　・・・　DataFrameをNumpy配列に変換する方法
 
 
 
