@@ -1,4 +1,4 @@
-# Pandas_test
+# Pandasについてのメモ
 
 ##　pandasのデータの読み込み書き込み
 
